@@ -1,0 +1,138 @@
+/* Universal selector */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* Element selector html,body and class selector .wrapper aspects */
+html,
+body,
+.wrapper {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* Element selector body aspect */
+body {
+  font-family: sans-serif;
+  background-color: #848484;
+}
+/* Class selector .wrapper aspects */
+.wrapper {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* Element selector header aspect */
+header {
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+  color: hsl(0, 0%, 0%);
+}
+/* Class selector .card aspects */
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 50px;
+  border-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  color: hsl(0, 0%, 0%);
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px 40px;
+}
+/* Class selector .card-header::after aspects */
+.card-header::after {
+  content: " ";
+  display: block;
+  width: 100%;
+  background: #000000;
+  height: 3px;
+}
+/* Class selector .card-body aspects */
+.card-body {
+  min-height: 100px;
+}
+/* Class selector .card-footer aspects */
+.card-footer {
+  text-align: center;
+}
+/* Class selector .card-footer::before aspects */
+.card-footer::before {
+  content: " ";
+  display: block;
+  width: 100%;
+  background: #000000;
+  height: 3px;
+}
+/* Class selector .card-footer::after aspects */
+.card-footer::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* Class selector .btn aspects */
+.btn {
+  border: none;
+  background-color: hsl(360, 91%, 36%);
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+    0px;
+  color: hsl(0, 0%, 100%);
+  display: inline-block;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 16px 16px 16px 20px;
+  padding: 14px 34px;
+  text-align: center;
+  cursor: pointer;
+}
+/* Element selector button aspects */
+button[disabled] {
+  cursor: default;
+  background: #c0c7cf;
+}
+
+.float-right {
+  float: right;
+}
+/* Id selector #password aspect */
+#password {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  display: block;
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 85px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 3px dashed #c0c7cf;
+  border-radius: 6px;
+  resize: none;
+  overflow: hidden;
+}
+/* Media queries aspects*/
+@media (max-width: 690px) {
+  .btn {
+    font-size: 1rem;
+    margin: 16px 0px 0px 0px;
+    padding: 10px 15px;
+  }
+
+  #password {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn {
+    font-size: 0.8rem;
+  }
+}
