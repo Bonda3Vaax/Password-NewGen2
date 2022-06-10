@@ -76,7 +76,7 @@ To be reviewd by the Centralised Grading Team.
 
 Q: How do I access Password-NewGen?
 
-A: By copying the following Url into your default Browser, https://bonda3vaax.github.io/Password-NewGen/, followed by Enter key.
+A: By copying the following Url into your default Browser, https://bonda3vaax.github.io/Password-NewGen2/, followed by Enter key.
 
 ## Author
 
