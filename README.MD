@@ -16,7 +16,7 @@ I have a better understanding of the JavaScript grammar however when it comes to
 
 This project helped sharpening my skills and had fun doing it. 
 
- - [For a full web description of the Password-NewGen](https://bonda3vaax.github.io/Password-NewGen/)
+ - [For a full web description of the Password-NewGen](https://bonda3vaax.github.io/Password-NewGen2/)
  - [For a full github description of the Password-NewGen](https://github.com/Bonda3Vaax/Password-NewGen)
 
 # Features
